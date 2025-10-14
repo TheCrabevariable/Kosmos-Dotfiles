@@ -15,4 +15,9 @@ promptinit
 # End of lines added by compinstall
 sleep .1
 fastfetch
-echo RMPC, SPF, NMTUI, BLUETUI
+echo RMPC, NMTUI, BLUETUI
+#alias
+alias install="sudo pacman -S"
+alias update="sudo pacman -Syu"
+alias remove="sudo pacman -Rns"
+alias clean="sudo pacman -Scc"
