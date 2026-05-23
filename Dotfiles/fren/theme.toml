@@ -1,0 +1,11 @@
+background = "#1a1b26"
+foreground = "#e5e1cf"
+
+border = "#2a2b36"
+focus_border = "#f19618"
+muted = "#404040"
+
+directory = "#e6c446"
+
+status_bg = "#15161e"
+status_fg = "#f19618"

@@ -1,0 +1,17 @@
+quit = "q"
+open = "enter"
+focus = "tab"
+copy = "c"
+cut = "x"
+paste = "v"
+trash = "d"
+sort = "s"
+toggle_hidden = "."
+create_file = "n"
+create_folder = "f"
+rename = "r"
+pin = "p"
+unpin = "u"
+go_to = "m"
+
+remember = true

@@ -1,0 +1,55 @@
+/* Fren Theme - Tokyo Night + Orange for Vesktop */
+
+@import url(https://raw.githubusercontent.com/computer-catt/PurplePrune/main/base.css);
+
+:root, .theme-dark {
+    /* Tokyo Night Colors */
+    --background-base-lowest: #1a1b26;
+    --background-base-lower: #1a1b26;
+    --background-base-low: #1f2330;
+    --background-base-high: #24283b;
+    --background-surface-high: #24283b;
+    --background-surface-higher: #2a2b36;
+    --background-surface-highest: #2a2b36;
+    
+    --chat-background-default: #1a1b26;
+    --modal-background: #24283b;
+    --modal-footer-background: #24283b;
+    --card-background-default: #24283b;
+    
+    --app-frame-background: #1a1b26;
+    --__header-bar-background: #1a1b26;
+    
+    --text-normal: #e5e1cf;
+    --text-muted: #787c99;
+    --text-link: #f19618;
+    
+    --interactive-normal: #a9b1d6;
+    --interactive-hover: #e5e1cf;
+    --interactive-active: #f19618;
+    --interactive-muted: #565d70;
+    
+    --header-primary: #e5e1cf;
+    --header-secondary: #a9b1d6;
+    
+    --brand: #f19618;
+    --brand-500: #f19618;
+    --brand-experiment: #f19618;
+    
+    --scrollbar-auto-thumb: #f19618;
+    --scrollbar-auto-track: transparent;
+    
+    --window-tint: #1a1b26;
+    --ProfilePopoutTint: #24283b;
+    --theme-background-image: none;
+}
+
+/* Links - Orange */
+a {
+    color: #f19618 !important;
+}
+
+/* Scrollbar - Orange */
+::-webkit-scrollbar-thumb {
+    background: #f19618 !important;
+}

@@ -2,9 +2,9 @@
 #![enable(unwrap_newtypes)]
 #![enable(unwrap_variant_newtypes)]
 (
-    default_album_art_path: Some(".config/rmpc/rmpc.jpg"),
+    default_album_art_path: None,
     draw_borders: true,
-    show_song_table_header: false,
+    show_song_table_header: true,
     symbols: (song: "🎵", dir: "📁", playlist: "🎼", marker: "\u{e0b0}"),
     layout: Split(
         direction: Vertical,
@@ -69,7 +69,23 @@
                 right: [
                     (kind: Text("Vol: "), style: (fg: "#b7bdf8", modifiers: "Bold")),
                     (kind: Property(Status(Volume)), style: (fg: "#b7bdf8", modifiers: "Bold")),
-                    (kind: Text("% "), style: (fg: "#b7bdf8", modifiers: "Bold"))
+                    (kind: Text("% "), style: (fg: "#b7bdf8", modifiers: "Bold")),
+                    (kind: Text("[ "),style: (fg: "#81a1c1")),
+                    (kind: Property(Status(RepeatV2(
+                                    on_label: "", off_label: "",
+                                    on_style: (fg: "#b7bdf8", modifiers: "Bold"), off_style: (fg: "#4c566a", modifiers: "Bold"))))),
+                    (kind: Text(" | "),style: (fg: "#81a1c1")),
+                    (kind: Property(Status(RandomV2(
+                                    on_label: "", off_label: "",
+                                    on_style: (fg: "#b7bdf8", modifiers: "Bold"), off_style: (fg: "#4c566a", modifiers: "Bold"))))),
+                    (kind: Text(" | "),style: (fg: "#81a1c1")),
+                    (kind: Property(Status(ConsumeV2(
+                                    on_label: "󰮯", off_label: "󰮯", oneshot_label: "󰮯󰇊",
+                                    on_style: (fg: "#b7bdf8", modifiers: "Bold"), off_style: (fg: "#4c566a", modifiers: "Bold"))))),
+                    (kind: Text(" | "),style: (fg: "#81a1c1")),
+                    (kind: Property(Status(SingleV2(
+                                    on_label: "󰎤", off_label: "󰎦", oneshot_label: "󰇊", off_oneshot_label: "󱅊",
+                                    on_style: (fg: "#b7bdf8", modifiers: "Bold"), off_style: (fg: "#4c566a", modifiers: "Bold"))))),
                 ]
             )
         ],
