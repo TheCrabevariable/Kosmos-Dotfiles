@@ -17,8 +17,7 @@ From config file:
 waybar  
 wofi  
 mako   
-ghostty  
-thunar  
+kitty    
 mpris  
 mpd-mpris  
 mpd  
@@ -27,21 +26,25 @@ fastfetch
 
 Optional:  
 power-profile-daemon  
-opentabletdriver(AUR)  
+opentabletdriver(AUR)
+fren(AUR)
 
-all thoses packages are Arch packages (excepts OTD from the AUR)  
+all thoses packages are Arch packages (excepts OTD and fren from the AUR)  
 you can ask or add things you would like i will try to respond as fast as possible  
 
-with Mainmod CTRL 1 to 4 you can change from thoses 4 weebpaper
-
-
-<img width="1920" height="1080" alt="image4" src="https://github.com/user-attachments/assets/ba3f7c1c-44a8-4438-a1de-2bb627f81842" />   
+<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/0485031a-24f5-425a-a214-36474162d157" />
+  
 preview of weebpaper  
 
-<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/71a40a4e-6cf8-4c2a-bcad-8b2fa3f02634" />  
-<img width="1918" height="1080" alt="image1" src="https://github.com/user-attachments/assets/9724056d-a224-4206-9d87-0641bc8d805b" />  
-<img width="1917" height="1075" alt="image2" src="https://github.com/user-attachments/assets/1faef7de-22a0-4df1-a2f0-f139699054b6" />  
-<img width="1916" height="1076" alt="image3" src="https://github.com/user-attachments/assets/3096f2eb-03e7-4a86-9f32-aa804390ffee" />
+<img width="1922" height="1080" alt="image" src="https://github.com/user-attachments/assets/bcaadb91-1ed3-4c40-81d0-e6dc7482ccc4" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e6d5a13-a0f9-4d61-9554-cd1aabe0c5c9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4a50954-1076-436c-9488-f9dc83d52318" />
+<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/149429c0-c3a0-4464-bb20-12f89b98f741" />
+
+
+
+
 
 
 
