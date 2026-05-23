@@ -32,7 +32,7 @@ fren(AUR)
 all thoses packages are Arch packages (excepts OTD and fren from the AUR)  
 you can ask or add things you would like i will try to respond as fast as possible  
 
-<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/0485031a-24f5-425a-a214-36474162d157" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6b5904ac-5d21-4a5e-9d7b-f618aae0b0ec" />
   
 preview of weebpaper  
 
